@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 自定义控件的属性 -->
+<resources>
+    <declare-styleable name="ItemView">
+        <attr name="icon" format="reference|color" />
+        <attr name="key" format="string" />
+        <attr name="value" format="string" />
+        <attr name="buttonbackground" format="reference|color" />
+        <attr name="itembackground" format="reference|color" />
+    </declare-styleable>
+  
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:never="http://schemas.android.com/apk/res/com.never.callsmssafe"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dip" >
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:background="@android:color/transparent"
+            android:onClick="setting_back"
+            android:src="@drawable/ic_menu_back" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#94F37D1A"
+            android:gravity="center"
+            android:text="设置中心"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+    <com.never.callsmssafe.ui.SwitchItemView
+        android:id="@+id/sv_setting_callsmssafe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        never:icon="@drawable/ic_defence_thief"
+        never:key="黑名单拦截" />
+
+</LinearLayout>
